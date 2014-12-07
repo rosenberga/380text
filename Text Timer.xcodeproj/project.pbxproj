@@ -8,13 +8,53 @@
 
 /* Begin PBXBuildFile section */
 		C77F16171A34300800FCD880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16161A34300800FCD880 /* main.m */; };
-		C77F161A1A34300800FCD880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16191A34300800FCD880 /* AppDelegate.m */; };
-		C77F161D1A34300800FCD880 /* Text_Timer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C77F161B1A34300800FCD880 /* Text_Timer.xcdatamodeld */; };
-		C77F16201A34300800FCD880 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F161F1A34300800FCD880 /* ViewController.m */; };
-		C77F16231A34300800FCD880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F16211A34300800FCD880 /* Main.storyboard */; };
-		C77F16251A34300800FCD880 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F16241A34300800FCD880 /* Images.xcassets */; };
-		C77F16281A34300800FCD880 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77F16261A34300800FCD880 /* LaunchScreen.xib */; };
 		C77F16341A34300800FCD880 /* Text_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16331A34300800FCD880 /* Text_TimerTests.m */; };
+		C77F163F1A34306800FCD880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F163E1A34306800FCD880 /* AppDelegate.m */; };
+		C77F164B1A34307C00FCD880 /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F16401A34307C00FCD880 /* appicon.png */; };
+		C77F164C1A34307C00FCD880 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F16411A34307C00FCD880 /* arrow.png */; };
+		C77F164D1A34307C00FCD880 /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F16431A34307C00FCD880 /* contact.png */; };
+		C77F164E1A34307C00FCD880 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F16441A34307C00FCD880 /* Default-568h@2x.png */; };
+		C77F164F1A34307C00FCD880 /* EmailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16461A34307C00FCD880 /* EmailViewController.m */; };
+		C77F16501A34307C00FCD880 /* FacebookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16481A34307C00FCD880 /* FacebookViewController.m */; };
+		C77F16511A34307C00FCD880 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C77F16491A34307C00FCD880 /* Images.xcassets */; };
+		C77F16521A34307C00FCD880 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C77F164A1A34307C00FCD880 /* logo.png */; };
+		C77F16851A34309C00FCD880 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77F16551A34309C00FCD880 /* LaunchScreen.xib */; };
+		C77F16861A34309C00FCD880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C77F16561A34309C00FCD880 /* Main.storyboard */; };
+		C77F16871A34309C00FCD880 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16581A34309C00FCD880 /* MasterViewController.m */; };
+		C77F16881A34309C00FCD880 /* PhoneContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F165A1A34309C00FCD880 /* PhoneContactsTableViewController.m */; };
+		C77F16891A34309C00FCD880 /* PhoneFormats.dat in Resources */ = {isa = PBXBuildFile; fileRef = C77F165B1A34309C00FCD880 /* PhoneFormats.dat */; };
+		C77F168A1A34309C00FCD880 /* RMPhoneFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F165D1A34309C00FCD880 /* RMPhoneFormat.m */; };
+		C77F168B1A34309C00FCD880 /* SmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F165F1A34309C00FCD880 /* SmsViewController.m */; };
+		C77F168E1A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16671A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.m */; };
+		C77F168F1A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16691A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.m */; };
+		C77F16901A34309C00FCD880 /* TTFacebookAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F166B1A34309C00FCD880 /* TTFacebookAccountTableViewController.m */; };
+		C77F16911A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F166D1A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.m */; };
+		C77F16921A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F166F1A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.m */; };
+		C77F16931A34309C00FCD880 /* TTLogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16711A34309C00FCD880 /* TTLogInViewController.m */; };
+		C77F16941A34309C00FCD880 /* TTMessageDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16731A34309C00FCD880 /* TTMessageDetailsViewController.m */; };
+		C77F16951A34309C00FCD880 /* TTSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16751A34309C00FCD880 /* TTSettingsViewController.m */; };
+		C77F16961A34309C00FCD880 /* TTSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16771A34309C00FCD880 /* TTSignUpViewController.m */; };
+		C77F16971A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16791A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.m */; };
+		C77F16981A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F167B1A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.m */; };
+		C77F16991A34309C00FCD880 /* TTTwitterAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F167D1A34309C00FCD880 /* TTTwitterAccountTableViewController.m */; };
+		C77F169A1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F167F1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.m */; };
+		C77F169B1A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16811A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.m */; };
+		C77F169C1A34309C00FCD880 /* TwitterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16831A34309C00FCD880 /* TwitterViewController.m */; };
+		C77F16A41A3430CF00FCD880 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16A31A3430CF00FCD880 /* Accounts.framework */; };
+		C77F16A61A3430D400FCD880 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16A51A3430D400FCD880 /* Social.framework */; };
+		C77F16A81A3430DD00FCD880 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16A71A3430DD00FCD880 /* CoreLocation.framework */; };
+		C77F16AA1A3430E200FCD880 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16A91A3430E200FCD880 /* CoreGraphics.framework */; };
+		C77F16AC1A3430EA00FCD880 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16AB1A3430EA00FCD880 /* CFNetwork.framework */; };
+		C77F16AE1A3430FE00FCD880 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16AD1A3430FE00FCD880 /* SystemConfiguration.framework */; };
+		C77F16B01A34310700FCD880 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16AF1A34310700FCD880 /* Security.framework */; };
+		C77F16B21A34310F00FCD880 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B11A34310F00FCD880 /* QuartzCore.framework */; };
+		C77F16B41A34311700FCD880 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B31A34311700FCD880 /* MobileCoreServices.framework */; };
+		C77F16B61A34312100FCD880 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B51A34312100FCD880 /* libz.dylib */; };
+		C77F16B81A34313700FCD880 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B71A34313700FCD880 /* AudioToolbox.framework */; };
+		C7BEBB161A34346E002865DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB121A34346E002865DE /* Bolts.framework */; };
+		C7BEBB171A34346E002865DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB131A34346E002865DE /* Parse.framework */; };
+		C7BEBB181A34346E002865DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */; };
+		C7BEBB191A34346E002865DE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB151A34346E002865DE /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,17 +71,77 @@
 		C77F16111A34300800FCD880 /* Text Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F16151A34300800FCD880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77F16161A34300800FCD880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C77F16181A34300800FCD880 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C77F16191A34300800FCD880 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C77F161C1A34300800FCD880 /* Text_Timer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Text_Timer.xcdatamodel; sourceTree = "<group>"; };
-		C77F161E1A34300800FCD880 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C77F161F1A34300800FCD880 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C77F16221A34300800FCD880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C77F16241A34300800FCD880 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		C77F16271A34300800FCD880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C77F162D1A34300800FCD880 /* Text TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Text TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F16321A34300800FCD880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77F16331A34300800FCD880 /* Text_TimerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Text_TimerTests.m; sourceTree = "<group>"; };
+		C77F163D1A34306800FCD880 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C77F163E1A34306800FCD880 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C77F16401A34307C00FCD880 /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		C77F16411A34307C00FCD880 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		C77F16431A34307C00FCD880 /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		C77F16441A34307C00FCD880 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C77F16451A34307C00FCD880 /* EmailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailViewController.h; sourceTree = "<group>"; };
+		C77F16461A34307C00FCD880 /* EmailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailViewController.m; sourceTree = "<group>"; };
+		C77F16471A34307C00FCD880 /* FacebookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacebookViewController.h; sourceTree = "<group>"; };
+		C77F16481A34307C00FCD880 /* FacebookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacebookViewController.m; sourceTree = "<group>"; };
+		C77F16491A34307C00FCD880 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C77F164A1A34307C00FCD880 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		C77F16551A34309C00FCD880 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		C77F16561A34309C00FCD880 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		C77F16571A34309C00FCD880 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		C77F16581A34309C00FCD880 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		C77F16591A34309C00FCD880 /* PhoneContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneContactsTableViewController.h; sourceTree = "<group>"; };
+		C77F165A1A34309C00FCD880 /* PhoneContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneContactsTableViewController.m; sourceTree = "<group>"; };
+		C77F165B1A34309C00FCD880 /* PhoneFormats.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = PhoneFormats.dat; sourceTree = "<group>"; };
+		C77F165C1A34309C00FCD880 /* RMPhoneFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMPhoneFormat.h; sourceTree = "<group>"; };
+		C77F165D1A34309C00FCD880 /* RMPhoneFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMPhoneFormat.m; sourceTree = "<group>"; };
+		C77F165E1A34309C00FCD880 /* SmsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmsViewController.h; sourceTree = "<group>"; };
+		C77F165F1A34309C00FCD880 /* SmsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmsViewController.m; sourceTree = "<group>"; };
+		C77F16661A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEmailHistoryQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F16671A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEmailHistoryQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F16681A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEmailScheduledQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F16691A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEmailScheduledQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F166A1A34309C00FCD880 /* TTFacebookAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFacebookAccountTableViewController.h; sourceTree = "<group>"; };
+		C77F166B1A34309C00FCD880 /* TTFacebookAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFacebookAccountTableViewController.m; sourceTree = "<group>"; };
+		C77F166C1A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFacebookHistoryQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F166D1A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFacebookHistoryQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F166E1A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFacebookScheduledQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F166F1A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFacebookScheduledQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F16701A34309C00FCD880 /* TTLogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTLogInViewController.h; sourceTree = "<group>"; };
+		C77F16711A34309C00FCD880 /* TTLogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTLogInViewController.m; sourceTree = "<group>"; };
+		C77F16721A34309C00FCD880 /* TTMessageDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTMessageDetailsViewController.h; sourceTree = "<group>"; };
+		C77F16731A34309C00FCD880 /* TTMessageDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMessageDetailsViewController.m; sourceTree = "<group>"; };
+		C77F16741A34309C00FCD880 /* TTSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSettingsViewController.h; sourceTree = "<group>"; };
+		C77F16751A34309C00FCD880 /* TTSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSettingsViewController.m; sourceTree = "<group>"; };
+		C77F16761A34309C00FCD880 /* TTSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSignUpViewController.h; sourceTree = "<group>"; };
+		C77F16771A34309C00FCD880 /* TTSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSignUpViewController.m; sourceTree = "<group>"; };
+		C77F16781A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSmsHistoryQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F16791A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSmsHistoryQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F167A1A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTSmsScheduledQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F167B1A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTSmsScheduledQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F167C1A34309C00FCD880 /* TTTwitterAccountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterAccountTableViewController.h; sourceTree = "<group>"; };
+		C77F167D1A34309C00FCD880 /* TTTwitterAccountTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterAccountTableViewController.m; sourceTree = "<group>"; };
+		C77F167E1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterHistoryQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F167F1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterHistoryQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F16801A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTTwitterScheduledQueryTableViewController.h; sourceTree = "<group>"; };
+		C77F16811A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTTwitterScheduledQueryTableViewController.m; sourceTree = "<group>"; };
+		C77F16821A34309C00FCD880 /* TwitterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwitterViewController.h; sourceTree = "<group>"; };
+		C77F16831A34309C00FCD880 /* TwitterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwitterViewController.m; sourceTree = "<group>"; };
+		C77F16A31A3430CF00FCD880 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		C77F16A51A3430D400FCD880 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		C77F16A71A3430DD00FCD880 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C77F16A91A3430E200FCD880 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C77F16AB1A3430EA00FCD880 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		C77F16AD1A3430FE00FCD880 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		C77F16AF1A34310700FCD880 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C77F16B11A34310F00FCD880 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C77F16B31A34311700FCD880 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C77F16B51A34312100FCD880 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C77F16B71A34313700FCD880 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		C7BEBB121A34346E002865DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Text Timer/Bolts.framework"; sourceTree = "<group>"; };
+		C7BEBB131A34346E002865DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Text Timer/Parse.framework"; sourceTree = "<group>"; };
+		C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "Text Timer/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		C7BEBB151A34346E002865DE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Text Timer/ParseUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +149,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BEBB181A34346E002865DE /* ParseFacebookUtils.framework in Frameworks */,
+				C77F16B81A34313700FCD880 /* AudioToolbox.framework in Frameworks */,
+				C77F16A81A3430DD00FCD880 /* CoreLocation.framework in Frameworks */,
+				C77F16B61A34312100FCD880 /* libz.dylib in Frameworks */,
+				C7BEBB161A34346E002865DE /* Bolts.framework in Frameworks */,
+				C77F16B41A34311700FCD880 /* MobileCoreServices.framework in Frameworks */,
+				C77F16B21A34310F00FCD880 /* QuartzCore.framework in Frameworks */,
+				C7BEBB171A34346E002865DE /* Parse.framework in Frameworks */,
+				C77F16B01A34310700FCD880 /* Security.framework in Frameworks */,
+				C77F16AE1A3430FE00FCD880 /* SystemConfiguration.framework in Frameworks */,
+				C77F16AC1A3430EA00FCD880 /* CFNetwork.framework in Frameworks */,
+				C77F16AA1A3430E200FCD880 /* CoreGraphics.framework in Frameworks */,
+				C7BEBB191A34346E002865DE /* ParseUI.framework in Frameworks */,
+				C77F16A61A3430D400FCD880 /* Social.framework in Frameworks */,
+				C77F16A41A3430CF00FCD880 /* Accounts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +180,21 @@
 		C77F16081A34300800FCD880 = {
 			isa = PBXGroup;
 			children = (
+				C7BEBB121A34346E002865DE /* Bolts.framework */,
+				C7BEBB131A34346E002865DE /* Parse.framework */,
+				C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */,
+				C7BEBB151A34346E002865DE /* ParseUI.framework */,
+				C77F16B71A34313700FCD880 /* AudioToolbox.framework */,
+				C77F16B51A34312100FCD880 /* libz.dylib */,
+				C77F16B31A34311700FCD880 /* MobileCoreServices.framework */,
+				C77F16B11A34310F00FCD880 /* QuartzCore.framework */,
+				C77F16AF1A34310700FCD880 /* Security.framework */,
+				C77F16AD1A3430FE00FCD880 /* SystemConfiguration.framework */,
+				C77F16AB1A3430EA00FCD880 /* CFNetwork.framework */,
+				C77F16A91A3430E200FCD880 /* CoreGraphics.framework */,
+				C77F16A71A3430DD00FCD880 /* CoreLocation.framework */,
+				C77F16A51A3430D400FCD880 /* Social.framework */,
+				C77F16A31A3430CF00FCD880 /* Accounts.framework */,
 				C77F16131A34300800FCD880 /* Text Timer */,
 				C77F16301A34300800FCD880 /* Text TimerTests */,
 				C77F16121A34300800FCD880 /* Products */,
@@ -83,14 +213,60 @@
 		C77F16131A34300800FCD880 /* Text Timer */ = {
 			isa = PBXGroup;
 			children = (
-				C77F16181A34300800FCD880 /* AppDelegate.h */,
-				C77F16191A34300800FCD880 /* AppDelegate.m */,
-				C77F161E1A34300800FCD880 /* ViewController.h */,
-				C77F161F1A34300800FCD880 /* ViewController.m */,
-				C77F16211A34300800FCD880 /* Main.storyboard */,
-				C77F16241A34300800FCD880 /* Images.xcassets */,
-				C77F16261A34300800FCD880 /* LaunchScreen.xib */,
-				C77F161B1A34300800FCD880 /* Text_Timer.xcdatamodeld */,
+				C77F16551A34309C00FCD880 /* LaunchScreen.xib */,
+				C77F16561A34309C00FCD880 /* Main.storyboard */,
+				C77F16571A34309C00FCD880 /* MasterViewController.h */,
+				C77F16581A34309C00FCD880 /* MasterViewController.m */,
+				C77F16591A34309C00FCD880 /* PhoneContactsTableViewController.h */,
+				C77F165A1A34309C00FCD880 /* PhoneContactsTableViewController.m */,
+				C77F165B1A34309C00FCD880 /* PhoneFormats.dat */,
+				C77F165C1A34309C00FCD880 /* RMPhoneFormat.h */,
+				C77F165D1A34309C00FCD880 /* RMPhoneFormat.m */,
+				C77F165E1A34309C00FCD880 /* SmsViewController.h */,
+				C77F165F1A34309C00FCD880 /* SmsViewController.m */,
+				C77F16661A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.h */,
+				C77F16671A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.m */,
+				C77F16681A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.h */,
+				C77F16691A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.m */,
+				C77F166A1A34309C00FCD880 /* TTFacebookAccountTableViewController.h */,
+				C77F166B1A34309C00FCD880 /* TTFacebookAccountTableViewController.m */,
+				C77F166C1A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.h */,
+				C77F166D1A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.m */,
+				C77F166E1A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.h */,
+				C77F166F1A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.m */,
+				C77F16701A34309C00FCD880 /* TTLogInViewController.h */,
+				C77F16711A34309C00FCD880 /* TTLogInViewController.m */,
+				C77F16721A34309C00FCD880 /* TTMessageDetailsViewController.h */,
+				C77F16731A34309C00FCD880 /* TTMessageDetailsViewController.m */,
+				C77F16741A34309C00FCD880 /* TTSettingsViewController.h */,
+				C77F16751A34309C00FCD880 /* TTSettingsViewController.m */,
+				C77F16761A34309C00FCD880 /* TTSignUpViewController.h */,
+				C77F16771A34309C00FCD880 /* TTSignUpViewController.m */,
+				C77F16781A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.h */,
+				C77F16791A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.m */,
+				C77F167A1A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.h */,
+				C77F167B1A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.m */,
+				C77F167C1A34309C00FCD880 /* TTTwitterAccountTableViewController.h */,
+				C77F167D1A34309C00FCD880 /* TTTwitterAccountTableViewController.m */,
+				C77F167E1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.h */,
+				C77F167F1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.m */,
+				C77F16801A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.h */,
+				C77F16811A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.m */,
+				C77F16821A34309C00FCD880 /* TwitterViewController.h */,
+				C77F16831A34309C00FCD880 /* TwitterViewController.m */,
+				C77F16401A34307C00FCD880 /* appicon.png */,
+				C77F16411A34307C00FCD880 /* arrow.png */,
+				C77F16421A34307C00FCD880 /* Base.lproj */,
+				C77F16431A34307C00FCD880 /* contact.png */,
+				C77F16441A34307C00FCD880 /* Default-568h@2x.png */,
+				C77F16451A34307C00FCD880 /* EmailViewController.h */,
+				C77F16461A34307C00FCD880 /* EmailViewController.m */,
+				C77F16471A34307C00FCD880 /* FacebookViewController.h */,
+				C77F16481A34307C00FCD880 /* FacebookViewController.m */,
+				C77F16491A34307C00FCD880 /* Images.xcassets */,
+				C77F164A1A34307C00FCD880 /* logo.png */,
+				C77F163D1A34306800FCD880 /* AppDelegate.h */,
+				C77F163E1A34306800FCD880 /* AppDelegate.m */,
 				C77F16141A34300800FCD880 /* Supporting Files */,
 			);
 			path = "Text Timer";
@@ -120,6 +296,13 @@
 				C77F16321A34300800FCD880 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C77F16421A34307C00FCD880 /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,9 +385,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77F16231A34300800FCD880 /* Main.storyboard in Resources */,
-				C77F16281A34300800FCD880 /* LaunchScreen.xib in Resources */,
-				C77F16251A34300800FCD880 /* Images.xcassets in Resources */,
+				C77F164D1A34307C00FCD880 /* contact.png in Resources */,
+				C77F16511A34307C00FCD880 /* Images.xcassets in Resources */,
+				C77F16891A34309C00FCD880 /* PhoneFormats.dat in Resources */,
+				C77F16521A34307C00FCD880 /* logo.png in Resources */,
+				C77F16851A34309C00FCD880 /* LaunchScreen.xib in Resources */,
+				C77F164E1A34307C00FCD880 /* Default-568h@2x.png in Resources */,
+				C77F16861A34309C00FCD880 /* Main.storyboard in Resources */,
+				C77F164B1A34307C00FCD880 /* appicon.png in Resources */,
+				C77F164C1A34307C00FCD880 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +411,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77F161A1A34300800FCD880 /* AppDelegate.m in Sources */,
-				C77F161D1A34300800FCD880 /* Text_Timer.xcdatamodeld in Sources */,
-				C77F16201A34300800FCD880 /* ViewController.m in Sources */,
+				C77F16931A34309C00FCD880 /* TTLogInViewController.m in Sources */,
+				C77F168B1A34309C00FCD880 /* SmsViewController.m in Sources */,
+				C77F16501A34307C00FCD880 /* FacebookViewController.m in Sources */,
+				C77F169B1A34309C00FCD880 /* TTTwitterScheduledQueryTableViewController.m in Sources */,
+				C77F169C1A34309C00FCD880 /* TwitterViewController.m in Sources */,
+				C77F168A1A34309C00FCD880 /* RMPhoneFormat.m in Sources */,
+				C77F16901A34309C00FCD880 /* TTFacebookAccountTableViewController.m in Sources */,
+				C77F164F1A34307C00FCD880 /* EmailViewController.m in Sources */,
+				C77F168F1A34309C00FCD880 /* TTEmailScheduledQueryTableViewController.m in Sources */,
+				C77F168E1A34309C00FCD880 /* TTEmailHistoryQueryTableViewController.m in Sources */,
+				C77F16981A34309C00FCD880 /* TTSmsScheduledQueryTableViewController.m in Sources */,
+				C77F169A1A34309C00FCD880 /* TTTwitterHistoryQueryTableViewController.m in Sources */,
+				C77F16871A34309C00FCD880 /* MasterViewController.m in Sources */,
+				C77F16971A34309C00FCD880 /* TTSmsHistoryQueryTableViewController.m in Sources */,
+				C77F16961A34309C00FCD880 /* TTSignUpViewController.m in Sources */,
+				C77F16991A34309C00FCD880 /* TTTwitterAccountTableViewController.m in Sources */,
+				C77F16941A34309C00FCD880 /* TTMessageDetailsViewController.m in Sources */,
+				C77F16881A34309C00FCD880 /* PhoneContactsTableViewController.m in Sources */,
+				C77F16921A34309C00FCD880 /* TTFacebookScheduledQueryTableViewController.m in Sources */,
+				C77F16911A34309C00FCD880 /* TTFacebookHistoryQueryTableViewController.m in Sources */,
+				C77F163F1A34306800FCD880 /* AppDelegate.m in Sources */,
+				C77F16951A34309C00FCD880 /* TTSettingsViewController.m in Sources */,
 				C77F16171A34300800FCD880 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,25 +454,6 @@
 			targetProxy = C77F162E1A34300800FCD880 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		C77F16211A34300800FCD880 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C77F16221A34300800FCD880 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C77F16261A34300800FCD880 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C77F16271A34300800FCD880 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C77F16351A34300800FCD880 /* Debug */ = {
@@ -347,6 +536,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rosenberg/Desktop,
+					"$(PROJECT_DIR)/Text",
+					Timer,
+				);
 				INFOPLIST_FILE = "Text Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +552,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/rosenberg/Desktop,
+					"$(PROJECT_DIR)/Text",
+					Timer,
+				);
 				INFOPLIST_FILE = "Text Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -416,6 +617,7 @@
 				C77F16391A34300800FCD880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C77F163A1A34300800FCD880 /* Build configuration list for PBXNativeTarget "Text TimerTests" */ = {
 			isa = XCConfigurationList;
@@ -424,21 +626,9 @@
 				C77F163C1A34300800FCD880 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		C77F161B1A34300800FCD880 /* Text_Timer.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C77F161C1A34300800FCD880 /* Text_Timer.xcdatamodel */,
-			);
-			currentVersion = C77F161C1A34300800FCD880 /* Text_Timer.xcdatamodel */;
-			path = Text_Timer.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = C77F16091A34300800FCD880 /* Project object */;
 }
