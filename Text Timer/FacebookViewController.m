@@ -50,17 +50,69 @@
 
 
 #pragma mark - Navigation
-/*
-// In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if([self.messageText.textColor isEqual:[UIColor lightGrayColor]]) {
+        self.edited = 0;
+    } else {
+        self.edited = 1;
+    }
+    
+    TTFacebookAccountTableViewController* view = [segue destinationViewController];
+    view.acc = self.accountText.text;
+    view.date = self.sendDate.date;
+    view.mes = self.messageText.text;
+    view.edited = self.edited;
 }
-*/
 - (IBAction)cancelPressed:(id)sender {
     [self popToRoot];
 }
 - (IBAction)savePressed:(id)sender {
+    NSString* inputAcc = self.accountText.text;
+    NSString* inputMes = self.messageText.text;
+    NSDate* inputDate = self.sendDate.date;
+    
+    if([self isEmpty:inputAcc]) {
+        [self showAlertWithTitle:@"Could not save Tweet" withMessage:@"Account is empty"];
+    } else if([self isEmpty:inputMes]) {
+        [self showAlertWithTitle:@"Could not save Tweet" withMessage:@"Message is empty"];
+    } else if(!inputDate) {
+        [self showAlertWithTitle:@"Could not save Tweet" withMessage:@"Date is null"];
+    } else {
+        PFObject* fb = [PFObject objectWithClassName:@"Facebook"];
+        fb[@"message"] = inputMes;
+        fb[@"facebookName"] = inputAcc;
+        fb[@"sendDate"] = inputDate;
+        fb[@"email"] = [[PFUser currentUser] objectForKey:@"email"];
+        fb[@"user"] = [PFUser currentUser];
+        [fb saveInBackground];
+        
+        // pop view controller
+        [self popToRoot];
+    }
+}
+
+-(bool) isEmpty:(NSString*)str {
+    if(str) {
+        if(str.length > 0) {
+            if([str isEqualToString:PLACEHOLDER]) {
+                if([self.messageText.textColor isEqual:[UIColor lightGrayColor]]) {
+                    return YES;
+                } else {
+                    NSLog(@"%@", str);
+                }
+            }
+            return NO;
+        }
+    }
+    return YES;
+}
+
+-(void) showAlertWithTitle:(NSString*)title withMessage:(NSString*)message {
+    [[[UIAlertView alloc] initWithTitle:title
+                                message:message
+                               delegate:nil
+                      cancelButtonTitle:@"ok"
+                      otherButtonTitles:nil] show];
 }
 
 - (void)popToRoot{

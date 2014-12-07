@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C778B91E1A34B79F00BF1FE9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C778B91A1A34B79F00BF1FE9 /* Bolts.framework */; };
+		C778B91F1A34B79F00BF1FE9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C778B91B1A34B79F00BF1FE9 /* Parse.framework */; };
+		C778B9201A34B79F00BF1FE9 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C778B91C1A34B79F00BF1FE9 /* ParseFacebookUtils.framework */; };
+		C778B9211A34B79F00BF1FE9 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C778B91D1A34B79F00BF1FE9 /* ParseUI.framework */; };
+		C778B9231A34BDE200BF1FE9 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C778B9221A34BDE200BF1FE9 /* FacebookSDK.framework */; };
 		C77F16171A34300800FCD880 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16161A34300800FCD880 /* main.m */; };
 		C77F16341A34300800FCD880 /* Text_TimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F16331A34300800FCD880 /* Text_TimerTests.m */; };
 		C77F163F1A34306800FCD880 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77F163E1A34306800FCD880 /* AppDelegate.m */; };
@@ -51,10 +56,6 @@
 		C77F16B41A34311700FCD880 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B31A34311700FCD880 /* MobileCoreServices.framework */; };
 		C77F16B61A34312100FCD880 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B51A34312100FCD880 /* libz.dylib */; };
 		C77F16B81A34313700FCD880 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77F16B71A34313700FCD880 /* AudioToolbox.framework */; };
-		C7BEBB161A34346E002865DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB121A34346E002865DE /* Bolts.framework */; };
-		C7BEBB171A34346E002865DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB131A34346E002865DE /* Parse.framework */; };
-		C7BEBB181A34346E002865DE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */; };
-		C7BEBB191A34346E002865DE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7BEBB151A34346E002865DE /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C778B91A1A34B79F00BF1FE9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Text Timer/Bolts.framework"; sourceTree = "<group>"; };
+		C778B91B1A34B79F00BF1FE9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Text Timer/Parse.framework"; sourceTree = "<group>"; };
+		C778B91C1A34B79F00BF1FE9 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "Text Timer/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		C778B91D1A34B79F00BF1FE9 /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Text Timer/ParseUI.framework"; sourceTree = "<group>"; };
+		C778B9221A34BDE200BF1FE9 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = "Text Timer/FacebookSDK/FacebookSDK.framework"; sourceTree = "<group>"; };
 		C77F16111A34300800FCD880 /* Text Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Text Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C77F16151A34300800FCD880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C77F16161A34300800FCD880 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -138,10 +144,6 @@
 		C77F16B31A34311700FCD880 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		C77F16B51A34312100FCD880 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C77F16B71A34313700FCD880 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		C7BEBB121A34346E002865DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Text Timer/Bolts.framework"; sourceTree = "<group>"; };
-		C7BEBB131A34346E002865DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "Text Timer/Parse.framework"; sourceTree = "<group>"; };
-		C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "Text Timer/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
-		C7BEBB151A34346E002865DE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseUI.framework; path = "Text Timer/ParseUI.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,19 +151,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7BEBB181A34346E002865DE /* ParseFacebookUtils.framework in Frameworks */,
+				C778B91E1A34B79F00BF1FE9 /* Bolts.framework in Frameworks */,
+				C778B91F1A34B79F00BF1FE9 /* Parse.framework in Frameworks */,
+				C778B9201A34B79F00BF1FE9 /* ParseFacebookUtils.framework in Frameworks */,
+				C778B9211A34B79F00BF1FE9 /* ParseUI.framework in Frameworks */,
 				C77F16B81A34313700FCD880 /* AudioToolbox.framework in Frameworks */,
 				C77F16A81A3430DD00FCD880 /* CoreLocation.framework in Frameworks */,
 				C77F16B61A34312100FCD880 /* libz.dylib in Frameworks */,
-				C7BEBB161A34346E002865DE /* Bolts.framework in Frameworks */,
 				C77F16B41A34311700FCD880 /* MobileCoreServices.framework in Frameworks */,
 				C77F16B21A34310F00FCD880 /* QuartzCore.framework in Frameworks */,
-				C7BEBB171A34346E002865DE /* Parse.framework in Frameworks */,
 				C77F16B01A34310700FCD880 /* Security.framework in Frameworks */,
 				C77F16AE1A3430FE00FCD880 /* SystemConfiguration.framework in Frameworks */,
 				C77F16AC1A3430EA00FCD880 /* CFNetwork.framework in Frameworks */,
 				C77F16AA1A3430E200FCD880 /* CoreGraphics.framework in Frameworks */,
-				C7BEBB191A34346E002865DE /* ParseUI.framework in Frameworks */,
+				C778B9231A34BDE200BF1FE9 /* FacebookSDK.framework in Frameworks */,
 				C77F16A61A3430D400FCD880 /* Social.framework in Frameworks */,
 				C77F16A41A3430CF00FCD880 /* Accounts.framework in Frameworks */,
 			);
@@ -180,10 +183,11 @@
 		C77F16081A34300800FCD880 = {
 			isa = PBXGroup;
 			children = (
-				C7BEBB121A34346E002865DE /* Bolts.framework */,
-				C7BEBB131A34346E002865DE /* Parse.framework */,
-				C7BEBB141A34346E002865DE /* ParseFacebookUtils.framework */,
-				C7BEBB151A34346E002865DE /* ParseUI.framework */,
+				C778B9221A34BDE200BF1FE9 /* FacebookSDK.framework */,
+				C778B91A1A34B79F00BF1FE9 /* Bolts.framework */,
+				C778B91B1A34B79F00BF1FE9 /* Parse.framework */,
+				C778B91C1A34B79F00BF1FE9 /* ParseFacebookUtils.framework */,
+				C778B91D1A34B79F00BF1FE9 /* ParseUI.framework */,
 				C77F16B71A34313700FCD880 /* AudioToolbox.framework */,
 				C77F16B51A34312100FCD880 /* libz.dylib */,
 				C77F16B31A34311700FCD880 /* MobileCoreServices.framework */,
@@ -541,7 +545,12 @@
 					/Users/rosenberg/Desktop,
 					"$(PROJECT_DIR)/Text",
 					Timer,
+					"$(PROJECT_DIR)/Text",
+					Timer,
+					"$(PROJECT_DIR)/Text",
+					Timer/FacebookSDK,
 				);
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Text Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,7 +566,12 @@
 					/Users/rosenberg/Desktop,
 					"$(PROJECT_DIR)/Text",
 					Timer,
+					"$(PROJECT_DIR)/Text",
+					Timer,
+					"$(PROJECT_DIR)/Text",
+					Timer/FacebookSDK,
 				);
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "Text Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

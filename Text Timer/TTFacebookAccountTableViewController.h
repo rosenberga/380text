@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <Accounts/Accounts.h>
+#import "FacebookViewController.h"
+#import <Social/Social.h>
+#import <FacebookSDK/FacebookSDK.h>
 @interface TTFacebookAccountTableViewController : UITableViewController
-
+@property NSString* acc;
+@property NSString* mes;
+@property NSDate* date;
+@property int edited;
+@property NSArray* accounts;
 @end
